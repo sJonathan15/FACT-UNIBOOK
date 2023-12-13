@@ -1,0 +1,137 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+input {
+  border: none;
+}
+
+body {
+  width: 151.2rem;
+}
+
+.login-A1g {
+  width: 100%;
+  align-items: center;
+  position: relative;
+  display: flex;
+  background-color: rgba(255, 215, 171, 0.7300000191);
+  border-radius: 2.5rem;
+  box-sizing: border-box;
+  padding: 6.6rem 10.7rem 6.6rem 9.2rem;
+  overflow: hidden;
+}
+.login-A1g .auto-group-lcmy-Wjk {
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding: 2.8rem 5.6rem 3.3rem 7.4rem;
+  width: 85.9rem;
+  height: 64.3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 2rem 0 0 2rem;
+}
+.login-A1g .auto-group-lcmy-Wjk .auto-group-lvgs-mp6 {
+  position: relative;
+  flex-shrink: 0;
+  margin-bottom: 24.5rem;
+  width: 100%;
+  height: 25.6rem;
+}
+.login-A1g .auto-group-lcmy-Wjk .auto-group-lvgs-mp6 .unibook-JZ8 {
+  width: 59.7rem;
+  height: 19.2rem;
+  text-align: center;
+  font-size: 15rem;
+  font-weight: 700;
+  line-height: 1.2775;
+  color: #000000;
+  position: absolute;
+  left: 6.6rem;
+  top: 0;
+  font-family: Space Grotesk, "Source Sans Pro";
+  white-space: nowrap;
+}
+.login-A1g .auto-group-lcmy-Wjk .auto-group-lvgs-mp6 .bienvenido-a-unibook-un-espacio-donde-los-libros-universitarios-estan-a-tu-alcanze-8o4 {
+  width: 72.9rem;
+  top: 17.9rem;
+  font-weight: 400;
+  font-family: Space Grotesk, "Source Sans Pro";
+  line-height: 1.2775;
+  color: #000000;
+  height: 7.7rem;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  font-size: 3rem;
+}
+.login-A1g .auto-group-lcmy-Wjk .group-1-m5L {
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+  margin: 0rem 20.8rem 0rem 20.7rem;
+  width: calc(100% - 41.5rem);
+  height: 8.1rem;
+}
+.login-A1g .auto-group-lcmy-Wjk .group-1-m5L .rectangle-14-FWJ {
+  width: 31.1781rem;
+  height: 7.8975rem;
+  position: absolute;
+  left: 0.2219rem;
+  top: 0;
+  background-color: #f5f5f1;
+  border-radius: 8rem;
+}
+.login-A1g .auto-group-lcmy-Wjk .group-1-m5L .siguiente-yBQ {
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.48;
+  font-family: Space Mono, "Source Sans Pro";
+  position: absolute;
+  top: 1.3162rem;
+  left: 9.8995rem;
+  font-size: 3.6rem;
+  color: #000000;
+  white-space: nowrap;
+  width: 19.9rem;
+  height: 5.4rem;
+}
+.login-A1g .auto-group-lcmy-Wjk .group-1-m5L .ellipse-1-rFC {
+  -o-object-fit: contain;
+     object-fit: contain;
+  vertical-align: top;
+  width: 8.8763rem;
+  height: 8.1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.login-A1g .auto-group-1zgj-9k6 {
+  padding: 15.4rem 1.9rem 18.3rem 3.8rem;
+  background-position: center;
+  background-image: url("REPLACE_IMAGE:cb699429e039d5b7032cc354d2511adb4c6d1a07");
+  box-sizing: border-box;
+  height: 64.3rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 0 0 12rem 0;
+  flex-shrink: 0;
+}
+.login-A1g .auto-group-1zgj-9k6 .image-4-sg6 {
+  width: 39.7rem;
+  height: 30.6rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: top;
+}/*# sourceMappingURL=login.css.map */

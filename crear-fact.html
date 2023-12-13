@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Unibook</title>
+  <script src="script.js"></script>
+  <link rel="icon" type="image-4.png" href="./assets/image-4.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Grotesk%3A500%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono%3A400"/>
+  <link rel="stylesheet" href="./styles/crear-fact.css"/>
+</head>
+<body>
+<div class="crear-fact-Lmx">
+  <div class="group-12-5zS">
+    <div class="auto-group-pl7c-ovS">
+      <div class="group-20-wmk">
+        <div class="auto-group-trru-sQW">
+          <div class="group-19-c7C">
+            <img class="chico-1-4NW" src="./assets/chico-1.png"/>
+          </div>
+          <div class="auto-group-ra3u-Bi2">
+            <p class="usuario-1-XG6">Usuario 1 </p>
+            <p class="jcanar89gmailcom-EAW">jcanar89@gmail.com</p>
+          </div>
+        </div>
+        <div class="group-18-XQW">Editar Perfil</div>
+      </div>
+      <div class="auto-group-a3a2-9Az">
+        <div class="auto-group-cbtw-GWW">
+          <div class="auto-group-jj9l-yfp">
+            <button class="control-button">
+              Cargar datos
+            </button>
+          </div>
+          <div class="group-15-ELr">
+            <nav>
+              <a href="home.html">
+                <button class="control-button">
+                  Inicio
+                </button>
+              </a>
+              <a href="home.html" id="shortcutLink" style="display: none;"accesskey="h">Ir a la página de inicio</a>
+            </nav>
+          </div>
+        </div>
+        <div class="group-13-DCn">
+          <div class="rectangle-14-BQW">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="auto-group-fann-tJv">
+      <div class="auto-group-w6je-B38">
+        <img class="image-8-W5Q" src="./assets/image-8.png"/>
+        <div class="auto-group-dv5t-RCN">
+          <div class="auto-group-vxre-9eA">
+            <img class="facturas-de-papel-2-fsQ" src="./assets/facturas-de-papel-2.png"/>
+            <p class="nueva-factura-mfY">Nueva Factura</p>
+          </div>
+        </div>
+      </div>
+      <body>
+        <form id="facturaForm">
+          <div class="form-group">
+            <label for="cliente">Cliente:</label>
+            <input type="text" id="cliente" name="cliente" placeholder="Ingrese el nombre del cliente">
+            <label for="cliente">Correo:</label>
+            <input type="text" id="cliente" name="cliente" placeholder="Ingrese el correo del cliente">
+          </div>
+          <div class="form-group">
+            <label for="correo">Direccion:</label>
+            <input type="text" id="correo" name="correo" placeholder="Ingrese la direccion del cliente">
+            <label for="correo">Numero de CI:</label>
+            <input type="text" id="correo" name="correo" placeholder="Ingrese el numero de CI del cliente">
+          </div>
+          <div class="productos" id="productosContainer">
+            <div class="producto">
+              <div class="form-group">
+                <label for="producto1">Producto:</label>
+                <input type="text" id="producto1" name="producto[]" placeholder="Nombre del producto">
+              </div>
+              <div class="form-group">
+                <label for="cantidad1">Cantidad:</label>
+                <input type="number" id="cantidad1" name="cantidad[]" placeholder="Cantidad" min="1">
+              </div>
+              <div class="form-group">
+                <label for="precio1">Precio Unitario:</label>
+                <input type="number" id="precio1" name="precio[]" placeholder="Precio unitario" step="0.01" min="0">
+              </div>
+              <div class="form-group">
+                <label for="iva1">IVA (%):</label>
+                <input type="number" id="iva1" name="iva[]" placeholder="IVA (%)" step="0.01" min="0">
+                
+              </div>
+              <button class="btn">
+                <svg viewBox="0 0 15 17.5" height="17.5" width="15" xmlns="http://www.w3.org/2000/svg" class="icon">
+                <path transform="translate(-2.5 -1.25)" d="M15,18.75H5A1.251,1.251,0,0,1,3.75,17.5V5H2.5V3.75h15V5H16.25V17.5A1.251,1.251,0,0,1,15,18.75ZM5,5V17.5H15V5Zm7.5,10H11.25V7.5H12.5V15ZM8.75,15H7.5V7.5H8.75V15ZM12.5,2.5h-5V1.25h5V2.5Z" id="Fill"></path>
+              </svg>
+              </button>
+            </div>
+            
+          </div>
+        </form>
+        <button type="submit">Crear Factura</button>
+        <button id="agregarProducto">Agregar otro producto</button>
+        <script src="script.js"></script>
+      </body>
+  </div>
+</div>
+</body>

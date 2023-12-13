@@ -1,0 +1,99 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 36.3rem;
+}.group-17-Vyt {
+  box-sizing: border-box;
+  padding: 2rem 2rem 7.7rem 1.9rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: dashed 0.1rem #9747ff;
+  border-radius: 0.5rem;
+}
+.group-17-Vyt .property-1default-pmG {
+  margin: 0rem 0rem 5.8rem 0.1rem;
+  width: 32.3rem;
+  height: 19.8rem;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.group-17-Vyt .property-1default-pmG .group-17-default-MWJ {
+  box-sizing: border-box;
+  padding: 1.501rem 5.168rem 1.261rem 4.932rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(154, 88, 51, 0.8299999833);
+  border-radius: 2.5rem;
+}
+.group-17-Vyt .property-1default-pmG .group-17-default-MWJ .facturas-de-papel-1-H94 {
+  margin: 0rem 0rem 0.214rem 0.315rem;
+  width: 12.211rem;
+  height: 12.7235rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.group-17-Vyt .property-1default-pmG .group-17-default-MWJ .nueva-factura-CWv {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2775;
+  color: #f5f5f1;
+  font-family: Space Grotesk, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.group-17-Vyt .property-1variant2-hia {
+  margin-right: 0.1rem;
+  width: 32.3rem;
+  height: 19.8rem;
+  flex-shrink: 0;
+}
+.group-17-Vyt .property-1variant2-hia .group-17-default-FVC {
+  box-sizing: border-box;
+  padding: 1.501rem 5.168rem 1.261rem 4.932rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(154, 88, 51, 0.4799999893);
+  border-radius: 2.5rem;
+}
+.group-17-Vyt .property-1variant2-hia .group-17-default-FVC .facturas-de-papel-1-PbQ {
+  margin: 0rem 0rem 0.214rem 0.315rem;
+  width: 12.211rem;
+  height: 12.7235rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.group-17-Vyt .property-1variant2-hia .group-17-default-FVC .nueva-factura-upe {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2775;
+  color: #f5f5f1;
+  font-family: Space Grotesk, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}

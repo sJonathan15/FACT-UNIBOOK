@@ -1,0 +1,518 @@
+html {
+	font-size:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 151.2rem;
+}.home-zVY {
+  width: 100%;
+  height: 77.5rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+
+.home-zVY .group-4-jxv {
+  width: 100%;
+  height: 77.4rem;
+  position: relative;
+  background-color: rgba(255, 215, 171, 0.7300000191);
+  border-radius: 2.5rem;
+}
+.home-zVY .group-4-jxv .rectangle-46-fbg {
+  width: 106.1rem;
+  height: 72.6rem;
+  position: absolute;
+  left: 42.9rem;
+  top: 2.4rem;
+  background-color: #ffffffc1;
+  border-radius: 0 2rem 2rem 0;
+}
+.home-zVY .group-4-jxv .rectangle-14-Bpv {
+  width: 41rem;
+  height: 72.6rem;
+  position: absolute;
+  left: 2.4rem;
+  top: 2.4rem;
+  background-color: rgba(154, 89, 51, 0.549);
+  border-radius: 5rem 0 0 5rem;
+}
+.home-zVY .group-4-jxv .group-11-WcJ {
+  width: 38.3512rem;
+  height: 44.0033rem;
+  position: absolute;
+  left: 3.8588rem;
+  top: 29.5983rem;
+  border-radius: 2.5rem;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  padding: 12px 24px;
+  border: none;
+  font-size: 16px;
+  background-color: inherit;
+  border-radius: 100px;
+  font-weight: 600;
+  color: #ffffff;
+  box-shadow: 0 0 0 2px #ffffff;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  margin-right: 1em; /* Agrega margen derecho al primer botón */
+}
+
+button:last-child {
+  margin-right: 0; /* Elimina el margen derecho del último botón */
+  margin-left: 1em; /* Agrega margen izquierdo al segundo botón */
+}
+button {
+
+  vertical-align: middle; /* Alineación vertical al medio */
+}
+
+
+button span:last-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.549);
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+button span:first-child {
+  position: relative;
+  z-index: 1;
+}
+
+button:hover {
+  box-shadow: 0 0 0 5px rgb(156, 75, 29);
+  color: rgb(255, 255, 255);
+}
+
+button:active {
+  scale: 0.95;
+}
+
+button:hover span:last-child {
+  width: 150px;
+  height: 150px;
+  opacity: 0;
+}
+
+.home-zVY .group-4-jxv .rectangle-23-z1g {
+  width: 32.3rem;
+  height: 19.8rem;
+  position: absolute;
+  left: 98.9rem;
+  top: 24.7rem;
+  background-color: #f6b07b;
+  border-radius: 2.5rem;
+}
+.home-zVY .group-4-jxv .rectangle-25-uPY {
+  width: 32.3rem;
+  height: 19.8rem;
+  position: absolute;
+  left: 54.7rem;
+  top: 49.6rem;
+  background-color: #f6b07b;;
+  border-radius: 2.5rem;
+}
+.home-zVY .group-4-jxv .rectangle-24-2j4 {
+  width: 32.3rem;
+  height: 19.8rem;
+  position: absolute;
+  left: 98.9rem;
+  top: 49.6rem;
+  background-color: #f6b07b;;
+  border-radius: 2.5rem;
+}
+.home-zVY .group-4-jxv .image-5-NH8 {
+  width: 41rem;
+  height: 20rem;
+  position: absolute;
+  left: 2.4rem;
+  top: 2.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 5rem 0 0 0;
+}
+.home-zVY .group-4-jxv .usuario-1-uH4 {
+  width: 28.7rem;
+  height: 8rem;
+  position: absolute;
+  left: 14.1rem;
+  top: 3.5rem;
+  text-align: center;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 1.2775;
+  color: #f5f5f1;
+  font-family: Space Grotesk, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-zVY .group-4-jxv .group-7-otE {
+  width: 18.9787rem;
+  height: 4.0732rem;
+  position: absolute;
+  left: 19.4rem;
+  top: 15.8rem;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.48;
+  color: #000000;
+  font-family: Space Mono, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f1;
+  border-radius: 1rem;
+}
+
+
+.home-zVY .group-4-jxv .cargar-base-datos-zC2 {
+  width: 15.9862rem;
+  height: 3.7217rem;
+  position: absolute;
+  left: 5rem;
+  top: 24.3rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.48;
+  color: #000000;
+  font-family: Space Mono, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-zVY .group-4-jxv .group-9-h6S {
+  width: 15.9862rem;
+  height: 3.7217rem;
+  position: absolute;
+  left: 26.2rem;
+  top: 24.3rem;
+  border-radius: 1rem;
+}
+
+
+
+.home-zVY .group-4-jxv .jcanar89gmailcom-5Mt {
+  width: 24.5rem;
+  height: 3.1rem;
+  position: absolute;
+  left: 16.7rem;
+  top: 11.4rem;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2775;
+  color: #f5f5f1;
+  font-family: Space Grotesk, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-zVY .group-4-jxv .historial-de-facturas-BA2 {
+  width: 30.8rem;
+  height: 4rem;
+  position: absolute;
+  left: 99.65rem;
+  top: 39rem;
+  text-align: center;
+  font-size: 3.1rem;
+  font-weight: 700;
+  line-height: 1.2775;
+  color: #f5f5f1;
+  font-family: Space Grotesk, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-zVY .group-4-jxv .cargar-usuarios-gMg {
+  width: 24.5rem;
+  height: 4.1rem;
+  position: absolute;
+  left: 102.75rem;
+  top: 64rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2775;
+  color: #f5f5f1;
+  font-family: Space Grotesk, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-zVY .group-4-jxv .group-3-C58 {
+  box-sizing: border-box;
+  padding: 1.394rem 1.077rem 0.887rem 1.077rem;
+  width: 9.317rem;
+  height: 9.3167rem;
+  position: absolute;
+  left: 4.5rem;
+  top: 6.3rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/ellipse-3-6pS.png');
+}
+.home-zVY .group-4-jxv .group-3-C58 .chico-1-6gJ {
+  width: 7.162rem;
+  height: 7.035rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.home-zVY .group-4-jxv .rectangle-17-psC {
+  width: 68.7rem;
+  height: 10.9rem;
+  position: absolute;
+  left: 59.7rem;
+  top: 4.3rem;
+  background-color: rgba(216, 145, 101, 0.8199999928);
+  border-radius: 2.5rem;
+}
+.home-zVY .group-4-jxv .image-6-9ea {
+  width: 13.1rem;
+  height: 12.8rem;
+  position: absolute;
+  left: 45.6rem;
+  top: 3rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.home-zVY .group-4-jxv .libros-1-642 {
+  width: 13.6702rem;
+  height: 12.5218rem;
+  position: absolute;
+  left: 113.4787rem;
+  top: 3.0817rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.home-zVY .group-4-jxv .usuario-1-R6J {
+  width: 29.6rem;
+  height: 8.2rem;
+  position: absolute;
+  left: 96.7rem;
+  top: 5.3rem;
+  text-align: center;
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 1.2775;
+  color: #f5f5f1;
+  font-family: Space Grotesk, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-zVY .group-4-jxv .bienvenido-a-Jvn {
+  width: 33.1rem;
+  height: 6.7rem;
+  position: absolute;
+  left: 62.1rem;
+  top: 5.7rem;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 400;
+  line-height: 1.48;
+  font-style: italic;
+  color: #f5f5f1;
+  font-family: Space Mono, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-zVY .group-4-jxv .recopilacion-de-datos-1-QU2 {
+  width: 12.3rem;
+  height: 12.3rem;
+  position: absolute;
+  left: 108.9rem;
+  top: 26rem;
+  
+  object-fit: cover;
+  vertical-align: top;
+}
+.home-zVY .group-4-jxv .agregar-usuario-8Q2 {
+  width: 24.9rem;
+  height: 4.1rem;
+  position: absolute;
+  left: 58.35rem;
+  top: 64.6rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2775;
+  color: #f5f5f1;
+  font-family: Space Grotesk, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-zVY .group-4-jxv .agregar-usuario-1-dra {
+  width: 11.5rem;
+  height: 11rem;
+  position: absolute;
+  left: 64.5rem;
+  top: 51.5rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.home-zVY .group-4-jxv .grupo-de-chat-1-mSz {
+  width: 18.3rem;
+  height: 10rem;
+  position: absolute;
+  left: 105.9rem;
+  top: 52.5rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.home-zVY .group-4-jxv .group-17-Jhp {
+  width: 32.3rem;
+  height: 19.8rem;
+  cursor: pointer;
+  position: absolute;
+  left: 54.7rem;
+  top: 26.2rem;
+}
+.home-zVY .group-4-jxv .group-17-Jhp .group-17-default-3vJ {
+  box-sizing: border-box;
+  padding: 1.501rem 5.168rem 1.261rem 4.932rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6b07b;
+  border-radius: 2.5rem;
+}
+.home-zVY .group-4-jxv .group-17-Jhp .group-17-default-3vJ .facturas-de-papel-1-Azv {
+  margin: 0rem 0rem 0.214rem 0.315rem;
+  width: 12.211rem;
+  height: 12.7235rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.home-zVY .group-4-jxv .group-17-Jhp .group-17-default-3vJ .nueva-factura-HZk {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2775;
+  color: #f5f5f1;
+  font-family: Space Grotesk, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.lougth {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  overflow: hidden;
+  transition-duration: .3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  background-color: rgba(222, 160, 125, 0.83);
+  width: 110px;
+  height: 50px;
+  position: absolute;
+  left: 130rem; /* Mismo valor left que el elemento .configuraciones-3-bKY */
+  top: 5rem; /* Mismo valor top que el elemento .configuraciones-3-bKY */
+}
+
+.sign {
+  width: 120%;
+  transition-duration: .3s;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.sign svg {
+  width: 20px;
+}
+
+.sign svg path {
+  fill: white;
+}
+/* text */
+.Salir {
+  position: absolute;
+  right: 0%;
+  width: 0%;
+  opacity: 0;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 600;
+  transition-duration: .3s;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(2, 2, 2); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+  background-color: rgb(253, 253, 253);
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #252323;
+  width: 80%;
+  text-align: center;
+}
+
+button {
+  margin: 5px;
+}
+/* Resto de estilos */
+
+.modal-content p {
+  font-size: 18px; /* Tamaño del texto del mensaje */
+  color: #333; /* Color del texto del mensaje */
+}
+
+.modal-content button {
+  font-size: 16px; /* Tamaño del texto de los botones */
+}
+
+/* Estilos para los botones Sí y No */
+.modal-content button:nth-of-type(1) {
+  color: #fff; /* Color del texto del botón Sí */
+  background-color: #f44336; /* Color de fondo del botón Sí */
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.modal-content button:nth-of-type(2) {
+  color: #fff; /* Color del texto del botón No */
+  background-color: #31da37 ; /* Color de fondo del botón No */
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
